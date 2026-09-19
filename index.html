@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Apurba Mishra — Computing Student in Kathmandu</title>
+<meta name="description" content="Apurba Mishra is a Computing student at Leeds Beckett University (expected 2027) working across software, web development and digital content writing in Kathmandu, Nepal.">
+<link rel="canonical" href="https://apurbamishra.com.np/">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Apurba Mishra">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#eceff3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0a111c" media="(prefers-color-scheme: dark)">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://apurbamishra.com.np/">
+<meta property="og:site_name" content="Apurba Mishra">
+<meta property="og:title" content="Apurba Mishra — Computing Student in Kathmandu">
+<meta property="og:description" content="Computing student building practical software and web projects, and writing the scripts and articles that make technical ideas easier to understand.">
+<meta property="og:image" content="https://apurbamishra.com.np/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Apurba Mishra — Computing student, Kathmandu, Nepal">
+<meta property="og:locale" content="en_GB">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Apurba Mishra — Computing Student in Kathmandu">
+<meta name="twitter:description" content="Computing student building practical software and web projects, and writing the scripts and articles that make technical ideas easier to understand.">
+<meta name="twitter:image" content="https://apurbamishra.com.np/assets/og-image.png">
+
+<!-- Icons -->
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/favicon-16.png" sizes="16x16" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+<!-- Typefaces: Space Grotesk (interface) + Source Serif 4 (reading). Mono uses the system stack. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Space+Grotesk:wght@400;500;700&display=swap">
+
+<link rel="stylesheet" href="styles.css">
+
+<!-- Applies the saved theme before first paint so the page never flashes the wrong colours. -->
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem('am-theme');
+      var theme = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.dataset.theme = theme;
+    } catch (e) {
+      document.documentElement.dataset.theme = 'light';
+    }
+    document.documentElement.classList.add('js');
+  })();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://apurbamishra.com.np/#apurba-mishra",
+      "name": "Apurba Mishra",
+      "givenName": "Apurba",
+      "familyName": "Mishra",
+      "url": "https://apurbamishra.com.np/",
+      "email": "mailto:apurba.mishra01@gmail.com",
+      "jobTitle": "Computing Student",
+      "description": "Computing student working across software development, web development and digital content writing.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kathmandu",
+        "addressCountry": "NP"
+      },
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Leeds Beckett University"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of the West of England"
+      },
+      "knowsAbout": [
+        "Software Development",
+        "Web Development",
+        "Python",
+        "Java",
+        "C++",
+        "JavaScript",
+        "HTML and CSS",
+        "UI/UX Design",
+        "Content Writing",
+        "Scriptwriting"
+      ],
+      "knowsLanguage": [
+        { "@type": "Language", "name": "Nepali" },
+        { "@type": "Language", "name": "Hindi" },
+        { "@type": "Language", "name": "English" }
+      ],
+      "sameAs": [
+        "https://github.com/apurbamishra",
+        "https://www.linkedin.com/in/apurba-mishra-a02538324"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://apurbamishra.com.np/#website",
+      "url": "https://apurbamishra.com.np/",
+      "name": "Apurba Mishra",
+      "inLanguage": "en",
+      "about": { "@id": "https://apurbamishra.com.np/#apurba-mishra" },
+      "publisher": { "@id": "https://apurbamishra.com.np/#apurba-mishra" }
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><span class="progress__bar" id="readingProgress"></span></div>
+
+<header class="site-header" id="top">
+  <div class="shell header__inner">
+    <a class="brand" href="#top">
+      <span class="brand__mark" aria-hidden="true">AM</span>
+      <span class="brand__name">Apurba Mishra</span>
+    </a>
+
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="#home">Home</a></li>
+        <li><a class="nav__link" href="#about">About</a></li>
+        <li><a class="nav__link" href="#experience">Experience</a></li>
+        <li><a class="nav__link" href="#projects">Projects</a></li>
+        <li><a class="nav__link" href="#skills">Skills</a></li>
+        <li><a class="nav__link" href="#contact">Contact</a></li>
+      </ul>
+      <p class="nav__footnote">Kathmandu, Nepal</p>
+    </nav>
+
+    <div class="header__actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-pressed="false">
+        <span class="visually-hidden" id="themeToggleLabel">Switch to dark theme</span>
+        <svg class="icon icon--sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <circle cx="12" cy="12" r="4.2"></circle>
+          <path d="M12 2.6v2.6M12 18.8v2.6M2.6 12h2.6M18.8 12h2.6M5.3 5.3l1.9 1.9M16.8 16.8l1.9 1.9M18.7 5.3l-1.9 1.9M7.2 16.8l-1.9 1.9"></path>
+        </svg>
+        <svg class="icon icon--moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M20 14.2A8.4 8.4 0 1 1 9.8 4a6.9 6.9 0 0 0 10.2 10.2z"></path>
+        </svg>
+      </button>
+
+      <button class="icon-btn nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="visually-hidden">Open menu</span>
+        <span class="nav-toggle__bars" aria-hidden="true"><i></i><i></i></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===== Hero ===== -->
+  <section class="section hero" id="home" aria-labelledby="hero-title">
+    <div class="shell hero__grid">
+      <div class="hero__intro">
+        <p class="hero__standfirst">Based in Kathmandu, Nepal. Studying toward a BSc (Hons) in Computing.</p>
+        <h1 class="hero__name" id="hero-title">Apurba Mishra</h1>
+        <p class="hero__lede">
+          I build small, practical software and web projects — and I write the scripts,
+          posts and copy that make technical things easier for other people to understand.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#projects">View my work</a>
+          <a class="btn btn--ghost" href="#contact">Get in touch</a>
+          <!--
+            OPTIONAL CV BUTTON — disabled on purpose.
+            Add your PDF at assets/Apurba-Mishra-CV.pdf, then uncomment the line below.
+            <a class="btn btn--ghost" href="assets/Apurba-Mishra-CV.pdf" download>Download CV</a>
+          -->
+        </div>
+
+        <ul class="hero__links">
+          <li>
+            <a class="social-link" href="https://github.com/apurbamishra" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.2a9.8 9.8 0 0 0-3.1 19.1c.5.1.7-.2.7-.5v-1.8c-2.7.6-3.3-1.3-3.3-1.3-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.3-2.2-.2-4.5-1.1-4.5-4.9 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.6 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 4.9 0c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.3.1 2.6.6.7 1 1.6 1 2.7 0 3.8-2.3 4.7-4.5 4.9.3.3.7 1 .7 1.9v2.8c0 .3.2.6.7.5A9.8 9.8 0 0 0 12 2.2z"></path></svg>
+              <span>GitHub</span>
+            </a>
+          </li>
+          <li>
+            <a class="social-link" href="https://www.linkedin.com/in/apurba-mishra-a02538324" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.1 8.6H3.2V21h2.9V8.6zM4.6 3a1.7 1.7 0 1 0 0 3.4 1.7 1.7 0 0 0 0-3.4zM21 13.9c0-3.2-1.7-4.7-4-4.7a3.5 3.5 0 0 0-3.1 1.7V8.6H11V21h2.9v-6.4c0-1.7.6-2.6 1.9-2.6s1.9.9 1.9 2.6V21H21v-7.1z"></path></svg>
+              <span>LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a class="social-link" href="mailto:apurba.mishra01@gmail.com">
+              <svg class="icon icon--stroke" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.6 5.4h16.8c.6 0 1.1.5 1.1 1.1v11c0 .6-.5 1.1-1.1 1.1H3.6c-.6 0-1.1-.5-1.1-1.1v-11c0-.6.5-1.1 1.1-1.1z"></path><path d="m2.9 6.4 9.1 6 9.1-6"></path></svg>
+              <span>Email</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!--
+        HERO VISUAL — no photograph by design.
+        To use a photo later: replace everything inside <figure class="idcard"> with
+        <img src="assets/images/apurba.jpg" alt="Apurba Mishra" width="720" height="900" loading="eager">
+        and add `.idcard img { width:100%; height:auto; display:block; }` to styles.css.
+      -->
+      <div class="hero__figure">
+        <figure class="idcard" id="heroFigure">
+          <div class="idcard__bar">
+            <span class="idcard__file">apurba.js</span>
+            <span class="idcard__grid" aria-hidden="true"></span>
+          </div>
+
+          <!-- tabindex="0": the panel scrolls sideways on narrow screens, so it
+               has to be reachable and scrollable with the keyboard too. -->
+          <pre class="idcard__code" tabindex="0"><code><span class="tok-kw">const</span> <span class="tok-var">apurba</span> <span class="tok-op">=</span> {
+  studying<span class="tok-op">:</span>   <span class="tok-str">"BSc (Hons) Computing"</span>,
+  graduating<span class="tok-op">:</span> <span class="tok-num">2027</span>,
+  builds<span class="tok-op">:</span>     [<span class="tok-str">"web"</span>, <span class="tok-str">"python"</span>, <span class="tok-str">"java"</span>, <span class="tok-str">"c++"</span>],
+  writes<span class="tok-op">:</span>     [<span class="tok-str">"scripts"</span>, <span class="tok-str">"blogs"</span>, <span class="tok-str">"social"</span>],
+  learning<span class="tok-op">:</span>   [<span class="tok-str">"ai/ml"</span>, <span class="tok-str">"ui/ux"</span>],
+}<span class="caret" aria-hidden="true"></span></code></pre>
+
+          <figcaption class="idcard__caption">
+            The same thing in plain language: a Computing student who builds
+            things, then <mark>explains</mark> them so other people can use them.
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="shell">
+      <p class="runner" aria-hidden="true"><span>About</span></p>
+
+      <div class="about__grid">
+        <div class="about__prose">
+          <h2 class="section__title" id="about-title">Two halves of the same interest</h2>
+
+          <p>
+            I'm a Computing student at Leeds Beckett University, working toward a BSc (Hons)
+            and expecting to graduate in 2027. Most of what I know, I've learned by building:
+            console tools in C++, small utilities in Python, interfaces in JavaScript, and a
+            responsive multi-page site from scratch. Each one was an excuse to understand a
+            language or an idea properly rather than just finish a module.
+          </p>
+          <p>
+            Alongside the code, I write. During my internship I wrote blog posts, website copy
+            and short-form video scripts, and I learned that the most useful thing I do isn't
+            tied to one language — it's taking something technical and explaining it so that
+            someone outside the field actually gets it.
+          </p>
+          <p>
+            That combination is what I'm building on. I'm interested in web development and
+            UI/UX, I'm working my way into AI and machine learning, and I do my best work on
+            projects where I get to think about both how something works and how it's explained.
+          </p>
+        </div>
+
+        <aside class="about__aside" aria-label="Quick facts">
+          <dl class="facts">
+            <div class="fact">
+              <dt>Studying</dt>
+              <dd>BSc (Hons) Computing, Leeds Beckett University</dd>
+            </div>
+            <div class="fact">
+              <dt>Expected graduation</dt>
+              <dd>2027</dd>
+            </div>
+            <div class="fact">
+              <dt>Based in</dt>
+              <dd>Kathmandu, Nepal</dd>
+            </div>
+            <div class="fact">
+              <dt>Working across</dt>
+              <dd>Software, web, UI/UX and written content</dd>
+            </div>
+            <div class="fact">
+              <dt>Languages</dt>
+              <dd>
+                <ul class="lang-list">
+                  <li><span>Nepali</span><span class="lang-list__level">Native</span></li>
+                  <li><span>Hindi</span><span class="lang-list__level">Proficient</span></li>
+                  <li><span>English</span><span class="lang-list__level">Proficient</span></li>
+                </ul>
+              </dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Experience ===== -->
+  <section class="section" id="experience" aria-labelledby="experience-title">
+    <div class="shell">
+      <p class="runner" aria-hidden="true"><span>Experience</span></p>
+      <div class="section__head">
+        <h2 class="section__title" id="experience-title">Where I've worked so far</h2>
+        <p class="section__lede">
+          Two internships, both built on the same thing: explaining ideas clearly to people
+          who are hearing them for the first time.
+        </p>
+      </div>
+
+      <ol class="timeline">
+        <li class="job" data-reveal>
+          <p class="job__when">June 2026 — July 2026</p>
+          <div class="job__body">
+            <h3 class="job__role">Content Writer Intern</h3>
+            <p class="job__org">Skill Shikshya, Vrit Technologies &amp; YCA</p>
+            <p class="job__place">Sankhamul, Kathmandu &middot; On-site</p>
+            <ul class="job__list">
+              <li>Wrote and edited blog posts, website copy and social media content, holding one consistent brand voice across two companies.</li>
+              <li>Scripted short-form videos and reels across tech, business and education, built around strong hooks and clear storytelling structure.</li>
+              <li>Turned complex technical subjects into plain, relatable scripts for a student and EdTech audience.</li>
+              <li>Worked with the marketing, design and video production teams so that scripts matched campaign goals and brand strategy.</li>
+              <li>Researched industry and trending topics for fresh content ideas, applying basic SEO practices to improve reach.</li>
+              <li>Proofread and revised work against feedback to keep accuracy, consistency and tone in line.</li>
+            </ul>
+            <ul class="tagrow">
+              <li class="tag">Content writing</li>
+              <li class="tag">Scriptwriting</li>
+              <li class="tag">SEO basics</li>
+              <li class="tag">Brand voice</li>
+              <li class="tag">Editing</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="job" data-reveal>
+          <p class="job__when">May 2025 — September 2025</p>
+          <div class="job__body">
+            <h3 class="job__role">Program and Outreach Intern</h3>
+            <p class="job__org">Nobel Learning PBC</p>
+            <p class="job__place">Remote</p>
+            <ul class="job__list">
+              <li>Represented Nobel at college, introducing the program to students and helping raise awareness of the initiative.</li>
+              <li>Co-facilitated sessions and led group discussions, building experience in communication, collaboration and audience engagement.</li>
+              <li>Built and maintained a professional LinkedIn presence as part of the program.</li>
+              <li>Explored web design principles and internet troubleshooting through practical learning activities.</li>
+              <li>Developed facilitation and public speaking skills through presentations and group work.</li>
+              <li>Delivered a Capstone presentation reflecting on the skills and knowledge gained across the internship.</li>
+            </ul>
+            <ul class="tagrow">
+              <li class="tag">Outreach</li>
+              <li class="tag">Facilitation</li>
+              <li class="tag">Public speaking</li>
+              <li class="tag">Web design principles</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section class="section" id="projects" aria-labelledby="projects-title">
+    <div class="shell">
+      <p class="runner" aria-hidden="true"><span>Projects</span></p>
+      <div class="section__head">
+        <h2 class="section__title" id="projects-title">Things I've built</h2>
+        <p class="section__lede">
+          Coursework, personal experiments and professional writing. They're student-scale on
+          purpose — each one exists because I wanted to understand something specific.
+        </p>
+      </div>
+
+      <div class="filters" role="group" aria-labelledby="filter-label">
+        <p class="visually-hidden" id="filter-label">Filter projects by area</p>
+        <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter" type="button" data-filter="web" aria-pressed="false">Web</button>
+        <button class="filter" type="button" data-filter="javascript" aria-pressed="false">JavaScript</button>
+        <button class="filter" type="button" data-filter="python" aria-pressed="false">Python</button>
+        <button class="filter" type="button" data-filter="java" aria-pressed="false">Java</button>
+        <button class="filter" type="button" data-filter="cpp" aria-pressed="false">C++</button>
+        <button class="filter" type="button" data-filter="uiux" aria-pressed="false">UI/UX</button>
+        <button class="filter" type="button" data-filter="content" aria-pressed="false">Content</button>
+      </div>
+      <p class="filters__note">
+        Repositories aren't public for these yet, so there are no links to follow — the write-ups below are the work.
+      </p>
+      <p class="visually-hidden" id="filterStatus" role="status"></p>
+
+      <div class="projects" id="projectGrid">
+
+        <article class="project" data-cat="content" data-reveal>
+          <div class="project__head">
+            <span class="project__kind">Content &amp; scriptwriting</span>
+            <svg class="project__glyph" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="#g-script"></use></svg>
+          </div>
+          <h3 class="project__title">Short-form content &amp; video scripts</h3>
+          <p class="project__desc">
+            Talking-head scripts for Skill Shikshya courses, Chairlyo by Vrit Technologies and
+            YCA, written for TikTok and Instagram Reels across education, business and
+            technology. The work also covered co-founder content, testimonial questions and
+            promotional scripts for new course launches.
+          </p>
+          <p class="project__note">Writing for the ear and the scroll: hooks, pacing and structure that hold attention inside a minute.</p>
+          <ul class="project__tags">
+            <li>Scriptwriting</li><li>Social media</li><li>Storytelling</li><li>Brand voice</li>
+          </ul>
+        </article>
+
+        <article class="project" data-cat="cpp" data-reveal>
+          <div class="project__head">
+            <span class="project__kind">C++ &middot; console application</span>
+            <svg class="project__glyph" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="#g-terminal"></use></svg>
+          </div>
+          <h3 class="project__title">Shop Invoice System</h3>
+          <p class="project__desc">
+            A console application that generates invoices for shopkeepers, built to make
+            everyday billing faster and more accurate.
+          </p>
+          <p class="project__note">Turning a real-world routine into program logic — input handling, calculation and output that a non-technical user can read.</p>
+          <ul class="project__tags">
+            <li>C++</li><li>Console app</li><li>Program logic</li>
+          </ul>
+        </article>
+
+        <article class="project" data-cat="uiux" data-reveal>
+          <div class="project__head">
+            <span class="project__kind">UI/UX &middot; Figma</span>
+            <svg class="project__glyph" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="#g-design"></use></svg>
+          </div>
+          <h3 class="project__title">Clothes Shop app prototype</h3>
+          <p class="project__desc">
+            An interactive prototype for a clothing store app, designed around a clean layout,
+            easy navigation and a modern feel.
+          </p>
+          <p class="project__note">Designing screens before writing code: hierarchy, spacing, and how someone actually moves through an interface.</p>
+          <ul class="project__tags">
+            <li>Figma</li><li>Prototyping</li><li>Interface design</li>
+          </ul>
+        </article>
+
+        <article class="project" data-cat="python" data-reveal>
+          <div class="project__head">
+            <span class="project__kind">Python &middot; command line</span>
+            <svg class="project__glyph" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="#g-terminal"></use></svg>
+          </div>
+          <h3 class="project__title">Student Profile Management System</h3>
+          <p class="project__desc">
+            A command-line tool for managing and updating student records, using file handling
+            and validation on everything a user types in.
+          </p>
+          <p class="project__note">Keeping stored data trustworthy — catching bad input before it ever reaches the file.</p>
+          <ul class="project__tags">
+            <li>Python</li><li>File handling</li><li>Input validation</li>
+          </ul>
+        </article>
+
+        <article class="project" data-cat="python" data-reveal>
+          <div class="project__head">
+            <span class="project__kind">Python &middot; rule-based</span>
+            <svg class="project__glyph" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="#g-chat"></use></svg>
+          </div>
+          <h3 class="project__title">Chatbot</h3>
+          <p class="project__desc">
+            A basic chatbot that answers simple queries using conditional logic and keyword
+            matching.
+          </p>
+          <p class="project__note">How much conversation you can get from rules alone — and exactly where a real language model would need to take over.</p>
+          <ul class="project__tags">
+            <li>Python</li><li>Conditional logic</li><li>Keyword matching</li>
+          </ul>
+        </article>
+
+        <article class="project" data-cat="python" data-reveal>
+          <div class="project__head">
+            <span class="project__kind">Python &middot; data handling</span>
+            <svg class="project__glyph" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="#g-data"></use></svg>
+          </div>
+          <h3 class="project__title">F1 Timings Board</h3>
+          <p class="project__desc">
+            A program that displays and manages Formula 1 race lap timings, reading the data
+            in from files.
+          </p>
+          <p class="project__note">Getting from a raw timing file to something readable: parsing, sorting and presenting results.</p>
+          <ul class="project__tags">
+            <li>Python</li><li>File parsing</li><li>Data handling</li>
+          </ul>
+        </article>
+
+        <article class="project" data-cat="web javascript" data-reveal>
+          <div class="project__head">
+            <span class="project__kind">Web &middot; HTML, CSS, JavaScript</span>
+            <svg class="project__glyph" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="#g-web"></use></svg>
+          </div>
+          <h3 class="project__title">Apartment rental website</h3>
+          <p class="project__desc">
+            A responsive multi-page website for an apartment rental service, with interactive
+            elements and a mobile-first layout.
+          </p>
+          <p class="project__note">Building a site that holds together at every width, starting from the smallest phone rather than shrinking a desktop design.</p>
+          <ul class="project__tags">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Responsive</li>
+          </ul>
+        </article>
+
+        <article class="project" data-cat="web javascript" data-reveal>
+          <div class="project__head">
+            <span class="project__kind">JavaScript &middot; interface</span>
+            <svg class="project__glyph" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="#g-web"></use></svg>
+          </div>
+          <h3 class="project__title">To-Do List app</h3>
+          <p class="project__desc">
+            A dynamic to-do list where tasks can be added, edited and deleted, with the
+            interface updating in real time.
+          </p>
+          <p class="project__note">Keeping the DOM in step with state as it changes, without reaching for a framework.</p>
+          <ul class="project__tags">
+            <li>JavaScript</li><li>DOM</li><li>UI state</li>
+          </ul>
+        </article>
+
+        <article class="project" data-cat="java" data-reveal>
+          <div class="project__head">
+            <span class="project__kind">Java &middot; LBUGraphics</span>
+            <svg class="project__glyph" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="#g-draw"></use></svg>
+          </div>
+          <h3 class="project__title">Turtle Graphics program</h3>
+          <p class="project__desc">
+            A turtle graphics drawing tool built with Java and LBUGraphics, where shapes are
+            drawn through typed text commands.
+          </p>
+          <p class="project__note">Translating text commands into drawing actions, and handling the input that doesn't follow instructions.</p>
+          <ul class="project__tags">
+            <li>Java</li><li>LBUGraphics</li><li>Command parsing</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section class="section" id="skills" aria-labelledby="skills-title">
+    <div class="shell">
+      <p class="runner" aria-hidden="true"><span>Toolkit</span></p>
+      <div class="section__head">
+        <h2 class="section__title" id="skills-title">What I work with</h2>
+        <p class="section__lede">
+          Grouped by area rather than scored out of ten. This is what I've actually worked
+          with — some of it daily, some of it in a single project that taught me a lot.
+        </p>
+      </div>
+
+      <div class="skillset">
+        <section class="skillgroup" aria-labelledby="sg-code" data-reveal>
+          <h3 class="skillgroup__title" id="sg-code">Programming &amp; web development</h3>
+          <ul class="chips chips--mono">
+            <li>Python</li><li>Java</li><li>C++</li><li>JavaScript</li><li>HTML/CSS</li>
+            <li>React</li><li>SQL</li><li>REST APIs</li><li>JSON</li>
+          </ul>
+        </section>
+
+        <section class="skillgroup" aria-labelledby="sg-tools" data-reveal>
+          <h3 class="skillgroup__title" id="sg-tools">Design &amp; tools</h3>
+          <ul class="chips">
+            <li>Figma</li><li>Git</li><li>GitHub</li><li>VS Code</li>
+            <li>IntelliJ</li><li>Jupyter</li><li>Oracle APEX</li>
+          </ul>
+        </section>
+
+        <section class="skillgroup" aria-labelledby="sg-content" data-reveal>
+          <h3 class="skillgroup__title" id="sg-content">Content writing &amp; digital marketing</h3>
+          <ul class="chips chips--write">
+            <li>Social media content</li><li>Script writing, short &amp; long form</li>
+            <li>Content research &amp; editing</li><li>SEO basics</li>
+            <li>Storytelling &amp; brand voice</li>
+          </ul>
+        </section>
+
+        <section class="skillgroup" aria-labelledby="sg-soft" data-reveal>
+          <h3 class="skillgroup__title" id="sg-soft">How I work</h3>
+          <ul class="chips">
+            <li>Effective communication</li><li>Analytical problem-solving</li>
+            <li>Critical thinking</li><li>Presentation skills</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Content & communication (inverted band) ===== -->
+  <section class="section section--ink" id="writing" aria-labelledby="writing-title">
+    <div class="shell">
+      <p class="runner" aria-hidden="true"><span>Writing</span></p>
+
+      <div class="writing__grid">
+        <div class="writing__lead">
+          <h2 class="section__title" id="writing-title">Turning technical things into plain language</h2>
+          <p class="writing__text">
+            A lot of my work sits between the people who build something and the people who
+            need to understand it. In my internship that meant blog posts, website copy, social
+            content and short-form video scripts across tech, business and education — written
+            for a student and EdTech audience, and kept inside one brand voice across two
+            companies.
+          </p>
+          <p class="writing__text">
+            It's the same instinct that makes me a better developer: if I can't explain what a
+            piece of code does in a sentence, I probably don't understand it well enough yet.
+          </p>
+
+          <h3 class="writing__subtitle">Formats I've written</h3>
+          <ul class="formats">
+            <li>Blog posts</li><li>Website copy</li><li>Social media content</li>
+            <li>Short-form video scripts</li><li>Reels &amp; TikTok</li>
+            <li>Co-founder content</li><li>Testimonial questions</li><li>Promotional ads</li>
+          </ul>
+        </div>
+
+        <div class="writing__aside">
+          <h3 class="writing__subtitle">How a short script comes together</h3>
+          <ol class="moves">
+            <li class="move">
+              <span class="move__num" aria-hidden="true">1</span>
+              <div>
+                <h4 class="move__title">Hook</h4>
+                <p class="move__text">Earn the first three seconds, or nothing after them matters.</p>
+              </div>
+            </li>
+            <li class="move">
+              <span class="move__num" aria-hidden="true">2</span>
+              <div>
+                <h4 class="move__title">Context</h4>
+                <p class="move__text">Say who this is for and why the topic is worth their minute.</p>
+              </div>
+            </li>
+            <li class="move">
+              <span class="move__num" aria-hidden="true">3</span>
+              <div>
+                <h4 class="move__title">Explain simply</h4>
+                <p class="move__text">Strip the jargon, keep the accuracy. Analogy before terminology.</p>
+              </div>
+            </li>
+            <li class="move">
+              <span class="move__num" aria-hidden="true">4</span>
+              <div>
+                <h4 class="move__title">Takeaway</h4>
+                <p class="move__text">Leave one idea the viewer can repeat to someone else.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Education ===== -->
+  <section class="section" id="education" aria-labelledby="education-title">
+    <div class="shell">
+      <p class="runner" aria-hidden="true"><span>Education</span></p>
+      <div class="section__head">
+        <h2 class="section__title" id="education-title">Where I'm studying</h2>
+      </div>
+
+      <ol class="edu">
+        <li class="edu__item" data-reveal>
+          <div class="edu__when">
+            <span class="status status--live">In progress</span>
+            <p class="edu__years">Expected graduation 2027</p>
+          </div>
+          <div class="edu__body">
+            <h3 class="edu__award">BSc (Hons) in Computing</h3>
+            <p class="edu__school">Leeds Beckett University</p>
+          </div>
+        </li>
+        <li class="edu__item" data-reveal>
+          <div class="edu__when">
+            <span class="status">Completed</span>
+            <p class="edu__years">2024</p>
+          </div>
+          <div class="edu__body">
+            <h3 class="edu__award">Foundation Certificate in International Foundation (Computing)</h3>
+            <p class="edu__school">University of the West of England</p>
+            <p class="edu__note">Foundation qualification taken before starting the degree.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== Interests ===== -->
+  <section class="section section--tight" id="interests" aria-labelledby="interests-title">
+    <div class="shell">
+      <p class="runner" aria-hidden="true"><span>Exploring</span></p>
+      <div class="section__head">
+        <h2 class="section__title" id="interests-title">What I'm exploring right now</h2>
+      </div>
+
+      <ul class="curious">
+        <li class="curious__item" data-reveal>
+          <h3>AI &amp; machine learning</h3>
+          <p>Reading, experimenting, and working out where the interesting problems actually are.</p>
+        </li>
+        <li class="curious__item" data-reveal>
+          <h3>Web development &amp; UI/UX</h3>
+          <p>Building interfaces, then rebuilding them once I understand why the first version didn't work.</p>
+        </li>
+        <li class="curious__item" data-reveal>
+          <h3>Storytelling &amp; digital marketing</h3>
+          <p>How a piece of writing finds its audience, and what makes people stay past the first line.</p>
+        </li>
+        <li class="curious__item" data-reveal>
+          <h3>New frameworks, tools &amp; languages</h3>
+          <p>Picking up whatever a personal project needs next, and keeping the habit of starting them.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="section" id="contact" aria-labelledby="contact-title">
+    <div class="shell">
+      <p class="runner" aria-hidden="true"><span>Contact</span></p>
+
+      <div class="contact__grid">
+        <div class="contact__intro">
+          <h2 class="section__title" id="contact-title">Start a conversation</h2>
+          <p class="section__lede">
+            Have an idea, an opportunity, or a question about something I've built or written?
+            I'd like to hear it — internships, collaborations, student projects and plain
+            curiosity are all welcome.
+          </p>
+
+          <ul class="contact__direct">
+            <li>
+              <span class="contact__label">Email</span>
+              <span class="contact__value">
+                <a href="mailto:apurba.mishra01@gmail.com">apurba.mishra01@gmail.com</a>
+                <button class="copy-btn" type="button" id="copyEmail" data-email="apurba.mishra01@gmail.com">
+                  <span class="copy-btn__text" aria-live="polite">Copy</span>
+                </button>
+              </span>
+            </li>
+            <li>
+              <span class="contact__label">LinkedIn</span>
+              <span class="contact__value">
+                <a href="https://www.linkedin.com/in/apurba-mishra-a02538324" target="_blank" rel="noopener noreferrer">in/apurba-mishra</a>
+              </span>
+            </li>
+            <li>
+              <span class="contact__label">GitHub</span>
+              <span class="contact__value">
+                <a href="https://github.com/apurbamishra" target="_blank" rel="noopener noreferrer">github.com/apurbamishra</a>
+              </span>
+            </li>
+            <li>
+              <span class="contact__label">Location</span>
+              <span class="contact__value">Kathmandu, Nepal</span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="form" id="contactForm" novalidate>
+          <h3 class="form__title">Send a message</h3>
+
+          <div class="field">
+            <label class="field__label" for="name">Your name <span class="req" aria-hidden="true">*</span></label>
+            <input class="field__input" type="text" id="name" name="name" required autocomplete="name"
+                   aria-describedby="name-error">
+            <p class="field__error" id="name-error" hidden></p>
+          </div>
+
+          <div class="field">
+            <label class="field__label" for="email">Email address <span class="req" aria-hidden="true">*</span></label>
+            <input class="field__input" type="email" id="email" name="email" required autocomplete="email"
+                   inputmode="email" aria-describedby="email-hint email-error">
+            <p class="field__hint" id="email-hint">So I can reply to you.</p>
+            <p class="field__error" id="email-error" hidden></p>
+          </div>
+
+          <div class="field">
+            <label class="field__label" for="reason">What's this about?</label>
+            <select class="field__input field__select" id="reason" name="reason" aria-describedby="reason-hint">
+              <option value="">Choose one (optional)</option>
+              <option value="Opportunity or internship">Opportunity or internship</option>
+              <option value="Project collaboration">Project collaboration</option>
+              <option value="Content or scriptwriting">Content or scriptwriting</option>
+              <option value="Question about my work">Question about my work</option>
+              <option value="Something else">Something else</option>
+            </select>
+            <p class="field__hint" id="reason-hint">Helps me reply with the right detail.</p>
+          </div>
+
+          <div class="field">
+            <label class="field__label" for="subject">Subject <span class="req" aria-hidden="true">*</span></label>
+            <input class="field__input" type="text" id="subject" name="subject" required
+                   aria-describedby="subject-error">
+            <p class="field__error" id="subject-error" hidden></p>
+          </div>
+
+          <div class="field">
+            <label class="field__label" for="message">Message <span class="req" aria-hidden="true">*</span></label>
+            <textarea class="field__input field__textarea" id="message" name="message" rows="5" required
+                      aria-describedby="message-hint message-error"></textarea>
+            <p class="field__hint" id="message-hint">A couple of sentences is plenty.</p>
+            <p class="field__error" id="message-error" hidden></p>
+          </div>
+
+          <!-- Honeypot: hidden from people, tempting to bots. Leave it empty. -->
+          <div class="hp" aria-hidden="true">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" tabindex="-1" autocomplete="off">
+          </div>
+
+          <div class="form__actions">
+            <button class="btn btn--primary btn--submit" type="submit" id="submitBtn">
+              <span class="btn__label">Send message</span>
+              <span class="btn__spinner" aria-hidden="true"></span>
+            </button>
+            <p class="form__fallback">
+              Or email me directly at
+              <a href="mailto:apurba.mishra01@gmail.com">apurba.mishra01@gmail.com</a>.
+            </p>
+          </div>
+
+          <p class="form__status" id="formStatus" role="status" hidden></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="shell footer__grid">
+    <div class="footer__brand">
+      <span class="brand__mark" aria-hidden="true">AM</span>
+      <div>
+        <p class="footer__name">Apurba Mishra</p>
+        <p class="footer__role">Computing student working across software, web and content. Kathmandu, Nepal.</p>
+      </div>
+    </div>
+
+    <nav class="footer__nav" aria-label="Footer">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <ul class="footer__social">
+      <li><a href="https://github.com/apurbamishra" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/apurba-mishra-a02538324" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      <li><a href="mailto:apurba.mishra01@gmail.com">Email</a></li>
+    </ul>
+
+    <p class="footer__meta">
+      <span>&copy; <span id="year">2026</span> Apurba Mishra</span>
+      <span>Built with HTML, CSS and JavaScript.</span>
+    </p>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" hidden>
+  <span class="visually-hidden">Back to top</span>
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 19V5M5.5 11.5 12 5l6.5 6.5"></path></svg>
+</button>
+
+<!-- Icon set used by the project cards. -->
+<svg class="sprite" aria-hidden="true" focusable="false" width="0" height="0">
+  <symbol id="g-terminal" viewBox="0 0 32 32"><rect x="2.5" y="5.5" width="27" height="21" rx="2"></rect><path d="M8 13l4 3.5-4 3.5M16.5 20.5H23"></path></symbol>
+  <symbol id="g-web" viewBox="0 0 32 32"><rect x="2.5" y="5.5" width="27" height="21" rx="2"></rect><path d="M2.5 11.5h27M6.5 8.5h.01M10 8.5h.01M13.5 8.5h.01"></path></symbol>
+  <symbol id="g-design" viewBox="0 0 32 32"><path d="M7 2.5v27M25 2.5v27M2.5 9h27M2.5 23h27"></path><rect x="12" y="13" width="8" height="6" rx="1"></rect></symbol>
+  <symbol id="g-script" viewBox="0 0 32 32"><rect x="5.5" y="3.5" width="21" height="25" rx="2"></rect><path d="M10 10h12M10 15h12M10 20h7"></path></symbol>
+  <symbol id="g-data" viewBox="0 0 32 32"><path d="M4 27V14M11.3 27V7M18.7 27v-9M26 27V11"></path><path d="M2.5 27h27"></path></symbol>
+  <symbol id="g-draw" viewBox="0 0 32 32"><path d="M4 27c0-9 5-16 12-16s10 4 10 8-3 6-6 6-5-2-5-5 2-4 4-4"></path><circle cx="19" cy="16" r="1.6"></circle></symbol>
+  <symbol id="g-chat" viewBox="0 0 32 32"><path d="M27.5 18.5a3 3 0 0 1-3 3H11l-6.5 5V8a3 3 0 0 1 3-3h17a3 3 0 0 1 3 3z"></path><path d="M11 12h10M11 16.5h6"></path></symbol>
+</svg>
+
+<script src="script.js" defer></script>
+</body>
+</html>

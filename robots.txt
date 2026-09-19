@@ -1,0 +1,5 @@
+# https://apurbamishra.com.np
+User-agent: *
+Allow: /
+
+Sitemap: https://apurbamishra.com.np/sitemap.xml

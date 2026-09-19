@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AM monogram">
+  <title>Apurba Mishra</title>
+  <rect width="64" height="64" rx="11.5" fill="#0f1a2b"/>
+  <g fill="none" stroke="#ffffff" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 50 L18 15 L29 50"/>
+    <path d="M10.6 38.5 L25.4 38.5"/>
+    <path d="M38 50 L38 15 L47 38.5 L56 15 L56 50"/>
+  </g>
+  <rect x="7" y="55" width="50" height="3.6" rx="1.8" fill="#e9b44c"/>
+</svg>
